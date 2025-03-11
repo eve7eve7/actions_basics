@@ -21,7 +21,7 @@ jobs:
       run: |
         echo "hello message 1"
         echo "hello message 2"
-        echo 'application name :  ${{ env.APP_NAME }}'
+#        echo "application name :  ${{ env.APP_NAME }}"
 
 
 
