@@ -17,11 +17,11 @@ jobs:
     - name: Print message Hello on testing!
       run: |
         echo " Hello World from testing!! "
-    -name: Execure few commands
+    - name: Execure few commands
       run: |
         echo "hello message 1"
         echo "hello message 2"
-#        echo "application name :  ${{ env.APP_NAME }}"
+        echo "application name :  ${{ env.APP_NAME }}"
 
 
 
