@@ -1,0 +1,24 @@
+#
+#
+name: my_actions_basics___
+on: 
+  push:
+    branches: 
+      - main
+jobs:
+
+  my_testing:
+
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print message Hello on testing!
+      run:
+        echo " Hello World from testing!! "
+
+  my_deploy:
+
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print message Hello on deploy!
+      run:
+        echo " Hello World from deploy!! "
